@@ -1,8 +1,8 @@
-name: CD Pipeline (CD)
+name: CD Pipeline
 
 on:
   workflow_run:
-    workflows: ["CI Pipeline (CI)"]
+    workflows: ["CI Pipeline"]
     # Execute the workflow once the CI workflow is completed on main branch.
     types: [completed]
     branches:
