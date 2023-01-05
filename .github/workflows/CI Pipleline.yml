@@ -46,6 +46,7 @@ jobs:
        
       - name: Install package dependencies
         run: npm install
+        run: npm install --save gh-pages
       
       - name: Check linting and formatting
         # Custom script for checking the linting and formatting being in place
