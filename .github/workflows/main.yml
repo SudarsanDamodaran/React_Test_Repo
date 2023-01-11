@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ "pipeline" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "pipeline" ]
+    branches: [ "main" ]
   workflow_dispatch:
 
 jobs:
