@@ -1,10 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "gh-actions-docker",
-=======
-  "name": "my-app",
-  "version": "0.1.6",
->>>>>>> e70704c3f789511f5e7b7f1d7ae11c6a3cb309b9
   "private": true,
   "version": "0.0.4",
   "scripts": {
