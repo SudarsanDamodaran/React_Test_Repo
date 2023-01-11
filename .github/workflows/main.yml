@@ -22,7 +22,7 @@ jobs:
           git config user.email "sansnavi7@gmail.com"
       
       - name: Dependecies
-        run: npm i
+        run: npm ci
       
       - name: Build
         run: npm run build
