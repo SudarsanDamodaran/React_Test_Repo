@@ -1,6 +1,6 @@
 {
   "name": "gh-actions-docker",
-  "private": true,
+  "private": false,
   "version": "0.0.7",
   "scripts": {
     "dev": "vite",
