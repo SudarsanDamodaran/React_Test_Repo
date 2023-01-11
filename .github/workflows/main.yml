@@ -25,6 +25,7 @@ jobs:
         run: npm ci
       
       - name: Build
+        run: npm install
         run: npm run build
         
       - name: Save version
